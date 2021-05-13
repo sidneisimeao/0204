@@ -1,8 +1,8 @@
-import ReactDOM from "react-dom";
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function App() {
-  return React.createContext("a", { href: "https://google.com" }, "Google");
+  return React.createContext('a', { href: 'https://google.com' }, 'Google');
 }
 
-ReactDOM.render("Teste", document.getElementById("root"));
+ReactDOM.render('Teste', document.getElementById('root'));
