@@ -1,8 +1,4 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-function App() {
-  return React.createContext('a', { href: 'https://google.com' }, 'Google');
-}
-
-ReactDOM.render('Teste', document.getElementById('root'));
+ReactDOM.render(App(), document.getElementById('root'));
