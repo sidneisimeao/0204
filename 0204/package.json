@@ -1,10 +1,10 @@
 {
   "name": "0204",
   "version": "1.0.0",
-  "description": "",
+  "description": "curso react",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --opne --hot",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
