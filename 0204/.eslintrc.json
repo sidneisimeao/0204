@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "plugin:prettier/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -16,9 +17,11 @@
     },
     "plugins": [
         "react",
-        "react-hooks"
+        "react-hooks",
+        "prettier"
     ],
     "rules": {
+      "prettier/prettier": ["error", { "singleQuote": true }],
       "react-hooks/rules-of-hooks":"error",
       "react-hooks/exhaustive-deps":"warn",
       "react/jsx-filename-extension": [1, {"extensions":[".tsx"]}],
